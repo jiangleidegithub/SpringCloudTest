@@ -1,0 +1,12 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: ms-consumer-movie
+#将微服务注册到Eureka服务器上
+eureka: 
+  client:
+    service-url:
+      defaultZone: http://user:123456@localhost:8761/eureka/
+  instance: 
+      prefer-ip-address: true
