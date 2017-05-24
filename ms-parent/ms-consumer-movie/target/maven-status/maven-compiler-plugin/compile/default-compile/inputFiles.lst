@@ -1,0 +1,4 @@
+D:\ProjectsFromGit\MicroServiceSpringCloud\ms-parent\ms-consumer-movie\src\main\java\org\ms\consumer\movie\Application.java
+D:\ProjectsFromGit\MicroServiceSpringCloud\ms-parent\ms-consumer-movie\src\main\java\org\ms\consumer\movie\entity\User.java
+D:\ProjectsFromGit\MicroServiceSpringCloud\ms-parent\ms-consumer-movie\src\main\java\org\ms\consumer\movie\controller\MovieController.java
+D:\ProjectsFromGit\MicroServiceSpringCloud\ms-parent\ms-consumer-movie\src\main\java\org\ms\consumer\movie\feign\UserFeignClient.java

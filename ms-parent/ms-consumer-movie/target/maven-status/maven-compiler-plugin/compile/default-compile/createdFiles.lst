@@ -1,0 +1,4 @@
+org\ms\consumer\movie\entity\User.class
+org\ms\consumer\movie\feign\UserFeignClient.class
+org\ms\consumer\movie\Application.class
+org\ms\consumer\movie\controller\MovieController.class

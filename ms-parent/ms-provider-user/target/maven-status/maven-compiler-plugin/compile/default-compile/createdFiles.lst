@@ -1,0 +1,4 @@
+org\ms\provider\user\controller\UserController.class
+org\ms\provider\user\repository\UserRepository.class
+org\ms\provider\user\entity\User.class
+org\ms\provider\user\ProviderUserApplication.class

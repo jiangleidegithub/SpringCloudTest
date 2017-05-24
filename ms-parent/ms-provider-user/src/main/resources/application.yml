@@ -2,7 +2,7 @@ server:
   port: 8000
 spring:
   application:
-    name: ms-provider-user 
+    name: ms-provider-user
   jpa:
     generate-ddl: false
     show-sql: true
