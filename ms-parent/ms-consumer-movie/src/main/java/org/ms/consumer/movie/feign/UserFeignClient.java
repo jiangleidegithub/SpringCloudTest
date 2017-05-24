@@ -5,6 +5,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
 /**
  * 声明式Feign接口
  * @author Administrator
@@ -17,10 +18,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
  *
  */
 
-@FeignClient(name="ms-provider-user" )
+@FeignClient(name = "ms-provider-user")
 public interface UserFeignClient {
-	
-	@RequestMapping(value="/{id}",method=RequestMethod.GET)
+
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public User findById(@PathVariable("id") Long id);
 
 }
