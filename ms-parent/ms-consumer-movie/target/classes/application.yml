@@ -10,3 +10,6 @@ eureka:
       defaultZone: http://user:123456@localhost:8761/eureka/
   instance: 
       prefer-ip-address: true
+ms-provider-user:  #服务名字
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #配置Ribbon的规则为随机，这样的配置比用java config要简单
